@@ -75,6 +75,14 @@ export function SiteFooter() {
               </a>
             </li>
             <li>
+              <Link
+                href="/press"
+                className="text-sm text-mint/90 transition-colors hover:text-fresh"
+              >
+                Press Kit
+              </Link>
+            </li>
+            <li>
               <a
                 href={site.instagram.href}
                 target="_blank"
